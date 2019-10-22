@@ -1,0 +1,123 @@
+/* This file is for your main application css. */
+
+@import "~milligram/dist/milligram";
+
+.column > p {
+    padding-top: 10ex;
+    text-align: center;
+}
+
+.row1 {
+    height: 250px;
+    width: 250x;
+    border: 10px solid;
+    text-align: center;
+    float: left;
+    padding: 10px 40px 10px 10px;
+    margin-right: 50px;    
+    display: table;
+}
+
+.row2 {
+    height: 250px;
+    width: 250x;
+    float: left;
+    border: 10px solid;
+    text-align: center;
+    padding: 10px 40px 10px 10px;
+    margin-right: 50px;    
+    display: table;
+}
+
+.rowTable {
+    height: 325px;
+    width: 450px;
+
+    border: 10px solid;
+    text-align: center;
+    padding: 10px 40px 10px 10px;
+    margin-right: 50px;    
+    display: table;
+}
+
+.table{
+
+    border: 1px solid brown;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 250px;
+    width: 350px;
+    float: left;
+}
+
+
+.player1 {
+    margin-top: 10%;
+    height: 250px;
+    width: 250x;
+    border: 10px solid;
+    text-align: center;
+    padding: 10px 40px 10px 10px;
+    margin-right: 50px;
+    float: left;    
+    display: table;
+}
+
+#p1c1,#p1c2,#p1c3,#p1c4,#p1c5,#p1c6 {
+    float: left;
+}
+
+#p2c1,#p2c2,#p2c3,#p2c4,#p2c5,#p2c6 {
+    float: left;
+}
+
+.player2 {
+    margin-top: 10%;
+    height: 250px;
+    width: 250x;
+    border: 10px solid;
+    text-align: center;
+    padding: 10px 40px 10px 10px;
+    margin-right: 50px;    
+    display: table;
+}
+
+.cardClass{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.cardProps{
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#messageList{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    overflow: scroll;
+    margin-top: 10px;
+
+}
+
+#button{
+    position: relative;
+    right:0;
+    bottom: 0;
+}
+#rowChat{
+    float: left;
+    margin-right: 100%;
+}
